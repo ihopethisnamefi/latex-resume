@@ -1,0 +1,106 @@
+\documentclass{jonthibeault_resume}
+
+\setname{Jon}{Thibeault}
+\setaddress{Austin, TX}
+\setmobile{832-326-6440}
+\setmail{jonthibeault@gmail.com}
+\setposition{Software Engineer} %ignored for now
+\setlinkedinaccount{https://www.linkedin.com/in/jon-thibeault-845baa1a/}
+\setgithubaccount{https://ihopethisnamefi.github.io/}
+\setthemecolor{blue}
+
+\begin{document}
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+\addblocktext{Summary}{
+\textbf{Full Stack Software Developer} with over 10 years of experience developing on production facing platforms. Obsessed with high-quality, clean code and documentation. Eager to learn
+new technologies and techniques in the field. Passionate about thinking analytically and solving
+challenging problems. Enjoys providing exciting features to a wide user base to make their application
+experience better and more enjoyable.
+}
+%
+%Education
+\section{Education} 
+    \datedexperience{University of Notre Dame}{September 2005 - December 2010} 
+    \explanation{B.S in Electrical Engineering} 
+     \explanationdetail{\coloredbullet\ 
+     \lipsum[1][3-4]\par %replace this part with actual text
+     }
+    \datedexperience{Austin Coding Academy}{October 2017 - December 2017} 
+    \explanation{Javascript Full Stack Web Dev Course - 100\% Grade} 
+    \explanationdetail{\coloredbullet\
+     \lipsum[1][3-4]\par %replace this part with actual text
+     }
+%
+% Experience
+\section{Experience}
+    %
+    \datedexperience{Hewlett Packard}{July 2010 - November 2015} 
+    \explanation{Application Developer}
+    \explanationdetail{\coloredbullet\
+     Developer for three IT Supply Chain Applications.
+     }
+    \explanationdetail{\coloredbullet\
+     CIO Excellence Customer award for role that won a \$40 million deal for UK and Ireland mid-level suppliers.
+     }
+    %
+    \datedexperience{Hewlett Packard Enterprise}{November 2015 - April 2017} 
+    \explanation{Application Developer}
+    \explanationdetail{\coloredbullet\
+     Lead Developer for Supplier Portal platform.
+     }
+    \explanationdetail{\coloredbullet\
+     Lead Developer for project setting up ETL layer between supply chain systems.
+     }
+    %
+    \datedexperience{DXC Technology}{April 2017 - January 2018} 
+    \explanation{Application Developer} 
+    \explanationdetail{\coloredbullet\
+     Lead Developer for Supplier Portal company spin-off projects.
+     }
+    %
+    \datedexperience{Walmart Technology}{January 2018 - Present} 
+    \explanation{Senior Software Engineer} 
+    \explanationdetail{\coloredbullet\
+     Developer since inception for home-grown, mobile focused platform used globally in all Walmart stores.
+     }
+    \explanationdetail{\coloredbullet\
+     Mentor to junior developers and new team members.
+     }
+%
+% Skills
+\section{Skills}
+    %
+    \newcommand{\skillone}{\createskill{Programming Languages}{\textbf{\emph{Experienced:}} \ \  Typescript \cpshalf Javascript \ \ \textbf{\emph{Familiar:}} \ \  Java \cpshalf Perl \cpshalf Python \cpshalf C \cpshalf C++}}
+    %
+    \newcommand{\skilltwo}{\createskill{Software Development}{GIT \cpshalf CLI \cpshalf Agile Methodology \cpshalf DevOps Lifecycle}}
+    %
+    \newcommand{\skillthree}{\createskill{Frameworks \ \& \ Libraries}{Angular \cpshalf React \cpshalf React Native \cpshalf Ionic/Cordova \cpshalf Redux \cpshalf Node \cpshalf GraphQL \cpshalf Apollo}}
+    %
+    \newcommand{\skillfour}{\createskill{Server Technologies}{Azure \cpshalf Heroku \cpshalf OneOps \cpshalf Apache \cpshalf Tomcat \cpshalf Weblogic}}
+    %
+    \newcommand{\skillfive}{\createskill{Testing Frameworks}{Jasmine \cpshalf Karma \cpshalf Jest \cpshalf Mocha \cpshalf Protractor \cpshalf Selenium Webdriver \cpshalf JUnit}}
+    %
+    \createskills{\skillone, \skilltwo, \skillthree, \skillfour, \skillfive}
+%
+% Experience
+\section{Extra}
+    \newcommand{\extraone}{
+    Brazilian Jiu Jitsu Black Belt who teaches classes and competes nationwide regularly.
+    }
+    %
+    \newcommand{\extratwo}{
+    Enjoys creating fantasy football data import tools, UIs, and bots.
+    }
+    %
+    \newcommand{\listofextras}{\extraone, \extratwo, \extrathree}
+    %
+    \createbullets{\listofextras}
+%
+%Footnote
+\createfootnote
+\end{document}
